@@ -1,0 +1,40 @@
+{
+  "name": "@gerts/core",
+  "version": "0.1.0",
+  "description": "Core package for Gerts - TypeScript framework for building scalable microservices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "clean": "rimraf dist",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "typia": "^5.4.7",
+    "prom-client": "^15.1.0",
+    "winston": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.28",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.2"
+  },
+  "author": "explosivebit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/explosivebit/gerts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/explosivebit/gerts/issues"
+  },
+  "homepage": "https://github.com/explosivebit/gerts#readme"
+}
